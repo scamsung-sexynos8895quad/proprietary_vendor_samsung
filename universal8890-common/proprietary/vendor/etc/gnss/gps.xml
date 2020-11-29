@@ -5,8 +5,7 @@
     PortName="lhd"
     NvStorageDir="/data/vendor/gps/"
 
-    LogEnabled="false"
-    Log="DAEMON"
+    LogDirectory="/storage/emulated/0/gps/broadcom/storage"
 
     WakeLock="geo"
 
