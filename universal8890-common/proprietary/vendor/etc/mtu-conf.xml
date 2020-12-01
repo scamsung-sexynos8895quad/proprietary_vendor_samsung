@@ -126,7 +126,6 @@ mtuTableEntry attributes:
 
 <!-- Salt -->
     <mtuTableEntry numeric="22803" mtu="1280" profile="2"/>
-    <mtuTableEntry numeric="22803" mtu="1280" rat="4"/>
 
 <!-- Hutchison -->
     <mtuTableEntry numeric="23205" mtu="1280" rat="4"/>
@@ -177,7 +176,6 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="24201" mtu="1280" rat="4"/>  
 
 <!-- Telia N -->
-    <mtuTableEntry numeric="24202" mtu="1300" profile="1001"/>
     <mtuTableEntry numeric="24202" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="24202" mtu="1300" rat="4"/>    
 
@@ -222,6 +220,12 @@ mtuTableEntry attributes:
 <!-- VF DE for Test lab -->
     <mtuTableEntry numeric="26209" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="26209" mtu="1280" rat="4"/>    
+
+<!-- Portugal-NOS -->
+    <mtuTableEntry numeric="26803" mtu="1380" profile="2"/>
+
+<!-- Portugal-NOS Trial -->
+    <mtuTableEntry numeric="26899" mtu="1300" profile="2"/>
 
 <!-- Vodafone VDI VoLTE VoWifi -->
     <mtuTableEntry numeric="27201" mtu="1330" profile="2"/>
@@ -339,13 +343,6 @@ mtuTableEntry attributes:
 <!-- OMAN MOBILE -->
     <mtuTableEntry numeric="42202" mtu="1300" profile="2"/>    
 
-<!-- ISRAEL PTR -->
-    <mtuTableEntry numeric="42501" mtu="1300" profile="2"/>
-    <mtuTableEntry numeric="42501" mtu="1300" rat="4"/>
-
-    <mtuTableEntry numeric="42510" mtu="1300" profile="2"/>
-    <mtuTableEntry numeric="42510" mtu="1300" rat="4"/>
-
 <!-- ZAIN BH -->
     <mtuTableEntry numeric="42602" mtu="1480" profile="2"/>    
     <mtuTableEntry numeric="42602" mtu="1480" profile="14"/>
@@ -448,8 +445,9 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="50501" mtu="1300" rat="4"/>
 
 <!--  Optus YES -->
-    <mtuTableEntry numeric="50502" mtu="1280" profile="2"/>
-    <mtuTableEntry numeric="50502" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="50502" mtu="1300" profile="2"/>
+    <mtuTableEntry numeric="50502" mtu="1300" proto="2"/>
+    <mtuTableEntry numeric="50502" mtu="1300" rat="4"/>
 
 <!--  Vodafone VAU -->
     <mtuTableEntry numeric="50503" mtu="1280" profile="2"/>
@@ -479,6 +477,13 @@ mtuTableEntry attributes:
 <!-- Movistar Peru -->
     <mtuTableEntry numeric="71606" mtu="1300" profile="2"/>
     <mtuTableEntry numeric="71606" mtu="1300" rat="4"/>
+
+<!-- Claro Panama -->
+    <mtuTableEntry numeric="71403" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="71403" mtu="1280" rat="4"/>
+
+<!-- Cable Panama -->
+    <mtuTableEntry numeric="71401" mtu="1280" profile="2"/>
 
 <!-- Claro Uruguay -->
     <mtuTableEntry numeric="74810" mtu="1280" profile="2"/>
@@ -516,6 +521,8 @@ mtuTableEntry attributes:
 <!-- Claro Chile -->
     <mtuTableEntry numeric="73003" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="73003" mtu="1280" proto="2"/>
+    <mtuTableEntry numeric="73023" mtu="1300" proto="1"/>
+    <mtuTableEntry numeric="73023" mtu="1280" proto="2"/>
 
 <!-- ATT Mexico -->
     <mtuTableEntry numeric="33405" mtu="1390" profile="2"/>
