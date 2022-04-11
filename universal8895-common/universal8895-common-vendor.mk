@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libexynosscaler.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfloatingfeature.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpixelflinger.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecaudioinfo.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libskeymaster.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libskeymaster.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefrighthw.so \
