@@ -5,7 +5,8 @@
     PortName="lhd"
     NvStorageDir="/data/vendor/gps/"
 
-    LogDirectory="/storage/emulated/0/gps/broadcom/storage"
+    LogEnabled="false"
+    Log="DAEMON"
 
     WakeLock="geo"
 
@@ -17,6 +18,7 @@
     SuplEnable="true"
     SuplUseApn="false"
     SuplTlsCertPath="/vendor/etc/gnss/gps.cer"
+    SuplTlsCertDirPath="/system/etc/security/cacerts"
     SuplUT1Seconds="20"
     SuplUT2Seconds="20"
     SuplUT3Seconds="20"
