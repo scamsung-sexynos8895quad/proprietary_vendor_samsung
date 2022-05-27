@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/dreamlte
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/dreamlte/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
+    vendor/samsung/dreamlte/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/samsung/dreamlte/proprietary/lib/hw/camera.vendor.universal8895.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.universal8895.so \
     vendor/samsung/dreamlte/proprietary/lib/libFacePreProcessing.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFacePreProcessing.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/lib/libFacePreProcessing_jni.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFacePreProcessing_jni.camera.samsung.so \

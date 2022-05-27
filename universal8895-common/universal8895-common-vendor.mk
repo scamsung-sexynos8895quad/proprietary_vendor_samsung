@@ -27,6 +27,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:$(TARGET_COPY_OUT_SYSTEM)/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/universal8895-common/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
     vendor/samsung/universal8895-common/proprietary/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml \
+    vendor/samsung/universal8895-common/proprietary/lib64/libprofileparamstorage.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libprofileparamstorage.so \
+    vendor/samsung/universal8895-common/proprietary/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprofileparamstorage.so \
     vendor/samsung/universal8895-common/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/samsung/universal8895-common/proprietary/etc/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf \
     vendor/samsung/universal8895-common/proprietary/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.gpscommon.rc \
@@ -145,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/abox_debug.xml:$(TARGET_COPY_OUT_VENDOR)/etc/abox_debug.xml \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/audio_effects_common.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_common.conf \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/audio_effects_sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_sec.xml \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
@@ -252,7 +253,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libmyspace.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmyspace.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
@@ -304,7 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
