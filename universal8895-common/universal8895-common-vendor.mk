@@ -199,13 +199,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/gatekeeper.exynos8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/memtrack.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8895.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/sound_trigger.primary.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libaboxpcmdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaboxpcmdump.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
@@ -308,10 +306,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so
-
-PRODUCT_PACKAGES += \
-    HotwordEnrollmentOKGoogleExCORTEXM4 \
-    HotwordEnrollmentXGoogleExCORTEXM4
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
