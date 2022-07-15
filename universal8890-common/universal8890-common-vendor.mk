@@ -30,10 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/etc/firmware/moon-dsp6-lpsd-control.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/moon-dsp6-lpsd-control.bin \
     vendor/samsung/universal8890-common/proprietary/vendor/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gpscommon.rc \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.exynos5.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/universal8890-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
@@ -59,10 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/camera.vendor.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.vendor.exynos5.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynoscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
@@ -170,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
@@ -206,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
@@ -225,27 +219,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so
-
-ifeq ($(WITH_EXYNOS_BSP),)
-PRODUCT_COPY_FILES += \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8890.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfimg.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmi.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwcutils.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib/libvirtualdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvirtualdisplay.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/hw/memtrack.universal8890.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8890.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libfimg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfimg.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libhdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmi.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libhwcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwcutils.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
-    vendor/samsung/universal8890-common/proprietary/vendor/lib64/libvirtualdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvirtualdisplay.so
-endif
