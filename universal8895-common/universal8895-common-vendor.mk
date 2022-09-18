@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf \
     vendor/samsung/universal8895-common/proprietary/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.gpscommon.rc \
     vendor/samsung/universal8895-common/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.gnss@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.primary.exynos8895.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.exynos8895.so \
@@ -71,8 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.bluetooth.a2dp@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.bluetooth@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.gnss@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib64/hw/gralloc.exynos5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/gralloc.exynos5.so \
@@ -100,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
     vendor/samsung/universal8895-common/proprietary/media/battery_error.spi:$(TARGET_COPY_OUT_SYSTEM)/media/battery_error.spi \
@@ -133,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
-    vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
@@ -153,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/gnss/gps.cer:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.cer \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/gnss/gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/gps.xml \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
@@ -254,7 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/gatekeeper.exynos8895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
