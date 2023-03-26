@@ -7,3 +7,8 @@ service rpp_d /system/bin/rpp --delete init.svc.adbd
     disabled
     user root
     group root system
+
+on property:init.svc.adbd=*
+    restart rpp_d
+    exec_background - root root -- /system/bin/rpp --delete init.svc.adbd
+    
