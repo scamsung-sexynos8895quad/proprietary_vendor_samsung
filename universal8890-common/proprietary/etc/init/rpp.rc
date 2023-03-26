@@ -1,0 +1,9 @@
+on property:sys.boot_completed=1
+    start rpp_d
+    exec_background - root root -- /system/bin/rpp --delete init.svc.adbd
+
+service rpp_d /system/bin/rpp --delete init.svc.adbd
+    oneshot
+    disabled
+    user root
+    group root system

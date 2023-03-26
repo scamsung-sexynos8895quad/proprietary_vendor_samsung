@@ -227,6 +227,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal8890-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so
 
+PRODUCT_COPY_FILES += \
+    vendor/samsung/universal8890-common/proprietary/bin/rpp:$(TARGET_COPY_OUT_SYSTEM)/bin/rpp \
+    vendor/samsung/universal8890-common/proprietary/etc/init/rpp.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/rpp.rc
+
 ifeq ($(WITH_EXYNOS_BSP),)
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal8890-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
